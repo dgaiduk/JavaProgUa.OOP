@@ -1,4 +1,4 @@
-package edu.javaprog.oop.module1;
+package edu.javaprog.oop.cars;
 
 public class Climate {
     private boolean on;

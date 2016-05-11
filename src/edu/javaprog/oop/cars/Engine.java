@@ -1,4 +1,4 @@
-package edu.javaprog.oop.module1;
+package edu.javaprog.oop.cars;
 
 public class Engine {
     private double mileage;
@@ -10,7 +10,7 @@ public class Engine {
         consumptionTab = new double[2];
         //[0] - economic mode; [1] - full mode
         if (capacity <= 0) {
-            //raise exception ??
+            return;
         } else if (capacity < 2) {
             consumptionTab[0] = 6;
             consumptionTab[1] = 10;
@@ -33,7 +33,7 @@ public class Engine {
         if (speed < 0) {
             return -1;
         }
-        double rate = 0;
+        double rate;
         if ((speed < 40) || (speed > 150)) {
             // max consumption
             rate = consumptionTab[1];

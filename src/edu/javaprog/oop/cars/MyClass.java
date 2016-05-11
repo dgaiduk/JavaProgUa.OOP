@@ -1,4 +1,4 @@
-package edu.javaprog.oop.module1;
+package edu.javaprog.oop.cars;
 
 public class MyClass {
     public static void main(String[] args) {
